@@ -5,6 +5,10 @@ The **Cryptographic Governance Framework (CGF)** is a comprehensive suite of sta
 
 ---
 
+![image](https://github.com/user-attachments/assets/0d45b395-a753-49f1-8cca-aa824164e4fa)
+
+---
+
 ## 🔐 Purpose
 
 This framework aims to:
