@@ -31,6 +31,10 @@ This framework aims to:
 | **Approved Cryptographic Methods** | Catalogues approved cryptographic approaches applicable to services and operations. |
 | **Cryptographic Key Management Standard** | Governs key lifecycle: creation, use, rotation, archival, and destruction. |
 | **Incident Response Management Standard** | Defines procedures for responding to cryptographic key compromise incidents. |
+| **Physical Vault Management Standard** | Operational guidelines for storing cryptographic assets (HSMs, tokens, etc.). |
+| **Secure Cryptographic Device Decommissioning Standard** | Ensures sensitive key material is safely removed when devices are retired. |
+| **Registering a Special Purpose CA** | Standard process to register CAs for limited, controlled use. |
+| **Code Signing Standard** | Outlines the security requirements for implementing and managing a secure code signing process. |
 | **Crypto Design Methodology** | Provides guidelines for designing cryptographically secure systems. |
 | **Metadata Model** | Describes characterization of keys using metadata for tracking and compliance. |
 
@@ -40,12 +44,9 @@ This framework aims to:
 
 | Document | Description |
 |----------|-------------|
-| **CGF User Guide** | High-level view of cryptographic services and governance. |
 | **Decision Cards** | Guidance for interim decisions affecting crypto governance. |
-| **Secure Cryptographic Device Decommissioning Standard** | Ensures sensitive key material is safely removed when devices are retired. |
 | **PMA Terms of Reference** | Defines the structure and authority of the Policy Management Authority (PMA). |
-| **Physical Vault Management Standard** | Operational guidelines for storing cryptographic assets (HSMs, tokens, etc.). |
-| **Registering a Special Purpose CA** | Standard process to register CAs for limited, controlled use. |
+| **Role Holder Registration** | Process to register Cryptographic Role Holders. |
 
 ---
 
@@ -54,22 +55,9 @@ This framework aims to:
 | Form | Purpose |
 |------|---------|
 | **Special Purpose Certificate (Authority) Registration Form** | Registers a limited-use PKI certificate authority. |
-| **Role Holder Registration** | Process to register Cryptographic Role Holders. |
 | **Cryptographic Asset Assignment Form** | Records assignment of crypto assets to individuals. |
 | **Cryptographic Asset Handover Form** | Tracks transfer of custody for cryptographic material. |
 | **Cryptographic Role Holder Registration / De-Registration Form** | Manages the onboarding/offboarding of cryptographic roles. |
-
----
-
-## 📦 Metadata and Application
-
-The metadata model enables the tracking of keys across their lifecycle, including:
-- Key type and usage
-- Key lifecycle status
-- Assigned custodians
-- Compliance with policies
-
-A typical application of this metadata is within a **Cryptographic Key Management System (CKMS)**.
 
 ---
 
@@ -82,12 +70,6 @@ A typical application of this metadata is within a **Cryptographic Key Managemen
 
 ---
 
-## 🧩 Governance Body: PMA
-
-The **Policy Management Authority (PMA)** is the central body overseeing cryptographic policies and their alignment with business and security goals.
-
----
-
 ## 📄 License
 
 This repository contains documentation templates and guidelines for internal use. Ensure alignment with your organization's compliance and security policies before deployment.
@@ -97,3 +79,8 @@ This repository contains documentation templates and guidelines for internal use
 ## 📬 Contributions
 
 For suggestions or updates to this framework, please submit a pull request or open an issue.
+
+## 🤝 Professional Services
+
+If you are looking for help implementing this framework in your organization, please reach out **info@link2trust.be**
+
